@@ -24,7 +24,7 @@ Assignment-4
 │   ├── best-arch-batchnorm     
 │   └── best-arch-both          
 └── model-inference/            # მოდელის შემოწმება test set-ზე
-```
+
 
 ## კვლევის ეტაპები
 

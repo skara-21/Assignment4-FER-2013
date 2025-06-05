@@ -8,17 +8,18 @@
 ## პროექტის სტრუქტურა
 
 Assignment-4
-├── phase1-depth-study/          # პირველი ფაზა: depth კვლევა
+
+├── phase1-depth-study/          # პირველი ფაზა: depth კვლევა         
 │   ├── 2layer-baseline         
 │   ├── 4layer-baseline         
 │   ├── 6layer-baseline         
 │   └── 8layer-baseline         
-├── phase2-skip-connections/     # მეორე ფაზა: skip connections კვლევა
-│   ├── 6layer-standard-cnn 
-│   ├── 6layer-skip-connections-cnn 
-│   ├── 6layer-hybrid-skip-connections-cnn         
-│   └── 6layer-dense-connections-cnn           
-├── phase3-regularization/       # ფაზა 3: regularization კვლევა
+├── phase2-skip-connections/     # მეორე ფაზა: skip connections კვლევა         
+│   ├── 6layer-standard-cnn         
+│   ├── 6layer-skip-connections-cnn         
+│   ├── 6layer-hybrid-skip-connections-cnn          
+│   └── 6layer-dense-connections-cnn         
+├── phase3-regularization/       # ფაზა 3: regularization კვლევა         
 │   ├── best-arch-no-reg        
 │   ├── best-arch-dropout       
 │   ├── best-arch-batchnorm     
@@ -95,13 +96,13 @@ Assignment-4
 ### Wandb-ის რეპორტები
 
 #### ფაზა 1: Depth კვლევა
-- **სიღრმის შედარებითი ანალიზი**: [W&B Report](https://wandb.ai/skara21-free-university-of-tbilisi-/fer-2013-depth-study/reports/Depth-Study-Report--VmlldzoxMzEwODk3NQ?accessToken=7917x675zw2b6iisbx2h34c7zrtbm9v9g5mc7uqwdcfv7u8jp14xauvl7zy9zaio)
+- **სიღრმის შედარებითი ანალიზი**: [Depth Study](https://wandb.ai/skara21-free-university-of-tbilisi-/fer-2013-depth-study/reports/Depth-Study-Report--VmlldzoxMzEwODk3NQ?accessToken=7917x675zw2b6iisbx2h34c7zrtbm9v9g5mc7uqwdcfv7u8jp14xauvl7zy9zaio)
 
 #### ფაზა 2: skip connections კვლევა
-- **📊 Skip Connections შედარება**: [📈 W&B Report](https://wandb.ai/skara21-free-university-of-tbilisi-/fer-2013-connections-study/reports/Connection-Study-Report--VmlldzoxMzEwOTE0NA?accessToken=3ilnyff5qfc57lz6u55udqemqxz0paf3t42xgpjvba1eo2i095pqps2yte854q8o)
+- **Skip Connections შედარება**: [Skip Connections Study](https://wandb.ai/skara21-free-university-of-tbilisi-/fer-2013-connections-study/reports/Connection-Study-Report--VmlldzoxMzEwOTE0NA?accessToken=3ilnyff5qfc57lz6u55udqemqxz0paf3t42xgpjvba1eo2i095pqps2yte854q8o)
 
 #### ფაზა 3: რეგულარიზაციის ტექნიკები
-- **📊 რეგულარიზაციის შედარება**: [📈 W&B Report](https://wandb.ai/skara21-free-university-of-tbilisi-/fer-2013-regularization-study/reports/Regularization-Study-Report--VmlldzoxMzEwOTE5Ng?accessToken=qup21w5fth6fygyn7z7kzweidzch15k85df1sst83405no6cvi6eyc8g5cygn4qu)
+- **რეგულარიზაციის შედარება**: [Regularization Study](https://wandb.ai/skara21-free-university-of-tbilisi-/fer-2013-regularization-study/reports/Regularization-Study-Report--VmlldzoxMzEwOTE5Ng?accessToken=qup21w5fth6fygyn7z7kzweidzch15k85df1sst83405no6cvi6eyc8g5cygn4qu)
 
 
 ### დასკვნები:
